@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ubah Profile</title>
+    <link rel="stylesheet" href="css/ubahprofile.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"/>
+    
+  </head>
+
+  <body>
+    <div class="judul"><h1>Profile</h1></div>
+    <div class="back-btn">
+                  <a href="profil.html" class="back-btn"
+        ><i class='bx bxs-chevron-left'></i></a>
+    </div>
+    <div class="kotak">
+      <form action="">
+        <br>
+        <div class="input-box">
+          <input type="text" required/>
+          <label>Nama</label>
+        </div><br>
+
+        <div class="form-group">
+          <select id="jk" name="jk" required>
+            <option value="" disabled selected>Jenis Kelamin</option>
+            <option value="aceh">Laki-Laki</option>
+            <option value="bali">Perempuan</option>
+          </select>
+        </div>
+        <br />
+
+        <div class="input-box">
+            <label>Tanggal Lahir</label><input type="text" name="tanggal"/>
+        </div>
+        <br>
+
+        <div class="input-box">
+            <label>Alamat Rumah/Kantor</label><input type="text" name="tanggal"/>
+        </div>
+        <br>
+
+        <div class="input-box">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="yourname@gmail.com">
+            </div>
+            <br>
+
+        <div class="input-box">
+          <input type="number" required />
+          <label>Nomor HP</label>
+        </div><br>
+
+        <div class="input-box">
+          <input type="text" required />
+          <label>Alamat Detail</label><br />
+        </div><br><br>
+
+        <a href="profil.html"><button type="submit" class="btn">Simpan</a></button>
+      </form>
+    </div>
+  </body>
+</html>
